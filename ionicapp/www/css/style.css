@@ -1,0 +1,158 @@
+/* Empty. Add your own CSS if you like */
+.scroll-content{
+    background-color: #ececec;
+}
+.dashboard{
+    /*background: #ececec url(../img/Dashboard-2.png) no-repeat center center;*/
+    background-color: #ececec;
+    /*height: 100%;*/
+    width: 100%;
+    /*min-height: 1000px;*/
+    display: block;
+    background-size: cover;
+}
+.dashboard-soil{
+    background: #ececec url(../img/Soil-Moisture.png) no-repeat center center;
+    /*height: 100%;*/
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+.dashboard-light{
+    background: #ececec url(../img/Light.png) no-repeat center center;
+    /*height: 100%;*/
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+.dashboard-temperature{
+    background: #ececec url(../img/temperature.png) no-repeat center center;
+    /*height: 100%;*/
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+.dashboard-prj1-trees{
+    background: #ececec url(../img/project1-trees.png) no-repeat center center;
+    /*height: 100%;*/
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+.dashboard-prj-add-qrcode{
+    background: #ececec url(../img/add-prjqr-code.png) no-repeat center center;
+    /*height: 100%;*/
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+.dashboard-prj-list{
+    background: #ececec url(../img/project_list.png) no-repeat center center;
+    /*height: 100%;*/
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+.dashboard-location{
+    background: #ececec url(../img/location.png) no-repeat center center;    
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+.project-detail1{
+    position: fixed;
+    display: block;
+    height: 150px;
+    width: 80vw;
+    padding: 20px;
+    top:20vh;
+    left:6vw;
+    font-size: 30px;
+}
+.project-list-addnew{
+    position: fixed;
+    display: block;
+    height: 150px;
+    width: 30vw;
+    padding: 20px;
+    top:46vh;
+    left:66vw;
+    font-size: 30px;
+}
+.project-list-link{
+    position: absolute;
+    display: block;
+    height: 150px;
+    width: 30vw;
+    padding: 20px;    
+    font-size: 30px;
+}
+.link{
+    text-decoration: none;
+}
+.dash-icon, .link{
+    font-size:18px;
+    color: #a87a2c;
+    display: block;
+}
+.dash-icon{
+    height: 35vw;
+    width: 35vw;
+    font-weight: bold;
+}
+.dash-icon .link{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    text-align: center;
+}
+.dash-icon-soil-moisture{
+    background: #ececec url(../img/dashboard-soil-moisture.png) no-repeat center center;
+    position: fixed;
+    display: block;    
+    background-size:cover;
+    top:8vh;
+    left:10vw;
+}
+.dash-icon-humidity{
+    background: #ececec url(../img/dashboard-humidity.png) no-repeat center center;
+    position: fixed;
+    display: block;    
+    background-size:cover;
+    top:8vh;
+    left:60vw;
+}
+.dash-icon-temperature{
+    background: #ececec url(../img/dashboard-temperature.png) no-repeat center center;
+    position: fixed;
+    display: block;    
+    background-size:cover;
+    top:35vh;
+    left:60vw;
+}
+.dash-icon-light{
+    background: #ececec url(../img/dashboard-light.png) no-repeat center center;
+    position: fixed;
+    display: block;    
+    background-size:cover;
+    top:35vh;
+    left:10vw;
+}
+.dash-icon-projects{
+    background: #ececec url(../img/dashboard-projects.png) no-repeat center center;
+    position: fixed;
+    display: block;    
+    background-size:cover;
+    top:62vh;
+    left:10vw;
+}
+.dash-icon-maps{
+    background: #ececec url(../img/dashboard-maps.png) no-repeat center center;
+    position: fixed;
+    display: block;    
+    background-size:cover;
+    top:62vh;
+    left:60vw;
+}

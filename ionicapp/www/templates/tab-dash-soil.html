@@ -1,0 +1,8 @@
+<ion-view view-title="Soil Moisture" hide-nav-bar="false">
+  <ion-content ng-controller="SoilCtrl">
+    <h4 class = "dashboard-title">Soil Moisture</h4>
+    <div class="item item-text-wrap">
+      <canvas id="line" class="chart chart-line" data="data" labels="labels" legend="true" series="series" options="{showTooltips: false, scaleBeginAtZero: true}"></canvas>
+    </div>
+  </ion-content>
+</ion-view>

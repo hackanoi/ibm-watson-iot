@@ -1,0 +1,27 @@
+<ion-view view-title="Dashboard" hide-nav-bar="false">
+  <ion-content class="dashboard">
+    <ion-refresher pulling-text="Pull to refresh" on-refresh="updateDashboard()"></ion-refresher>
+    <div class=" dash-icon dash-icon-soil-moisture">
+      <a class="link" href="#/tab/dash-soil">{{sensors.soilmoisture}}%</a>
+    </div>
+    <div class=" dash-icon dash-icon-humidity">
+      <a class="link">{{sensors.humidity}}%</a>
+    </div>
+    <div class=" dash-icon dash-icon-light">
+      <a class="link" href="#/tab/dash-light">{{sensors.light}}%</a>
+    </div>
+    <div class=" dash-icon dash-icon-temperature">
+      <a class="link" href="#/tab/dash-temp">{{sensors.temp}}<sup>o</sup></a>
+    </div>
+    <div class=" dash-icon dash-icon-projects">
+      <a href="#/tab/dash-prj-list" class="project-list-link link">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+      </a>
+    </div>
+    <div class=" dash-icon dash-icon-maps">
+      <a href="#/tab/dash-location" class="project-list-link link">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

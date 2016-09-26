@@ -1,0 +1,7 @@
+<ion-view view-title="Project tomato" >
+  <ion-content>
+    <button class="ion-camera button icon button-full button-positive" ng-click="takePicture()"></button>
+    <button class="ion-camera button icon button-full button-positive" ng-click="choosePhoto()">Choose Photo</button>
+    <img ng-show="imgURI !== undefined" ng-src="{{imgURI}}" style="text-align: center">
+  </ion-content>
+</ion-view>
